@@ -11,6 +11,7 @@ Word = "1111 1111 1111 1111 1111 1111 1111 1111"
 Base 64 = If a answer keep the equal signs. Decode it usually.
 ==============================================================================================================================================
                                                                     OSI Layers
+                                                        **EVERYTHING CAN BE FOUND IN SLIDES**
 Application = Data Type - Data, 
               dis where i be doin stuff
 
@@ -18,6 +19,10 @@ Presentation = Data Type - Data .
                Makes data presentable for the application to use it
 
 Session = Data Type - Data . 
+          PPTP - Old and unsecure vpn protocol
+          L2TP - External encryption, better than PPTP
+          SMB/CIFS -Server message block, cifs is open source.
+          RPC - Interacts with server
 
 Transport = TCP/UDP . Data Type - segments
 
@@ -50,7 +55,13 @@ Ethernet Header - contains 8 bytes total, 7 bytes of 1's and 0's and a 1 byte de
 
 ARP Header - Offsets, 
 
-IPv4 Header - 
+IPv4 Header -   APIPA , RFC 3927
+IPv6        -   SLAAC, RFC 4862
 
+
+==============================================================================================================================================
+  Ip header length-s the 0x4 (wtv number it is) times the IHL.
 MTU - IP Header Length = Answer/8 = offset
 1500 - 20 = 1480/8 = 185
+
+

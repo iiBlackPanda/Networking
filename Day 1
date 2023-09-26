@@ -41,9 +41,16 @@ IEEE -
 IANA - 
 ==============================================================================================================================================
                                                                 Headers
+Standard MTU - 1500 Bytes
+
 Ethernet Header - contains 8 bytes total, 7 bytes of 1's and 0's and a 1 byte delimeter. 
                   Ethertypes - (0800 = IPv4),(86DD = IPv6)
 
 802.1Q Header - 
 
 ARP Header - Offsets, 
+
+IPv4 Header - 
+
+MTU - IP Header Length = Answer/8 = offset
+1500 - 20 = 1480/8 = 185

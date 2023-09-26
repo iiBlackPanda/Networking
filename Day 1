@@ -28,12 +28,21 @@ Data Link = Data type - frames .
             Sub-Layers = MAC is a sub-layer that controls access with the physical layer. (Media Access Control)
                          LLC is a sub layer that controls access with the network layer. (Logical Link Control)
 
+
 Physical =  Data type is - bits
             Meduim of actual transportation.
 ==============================================================================================================================================
-                                                                Notes
+                                                                Companies
 IETF - develops open standards through transparent processes
 
 IEEE - 
 
 IANA - 
+==============================================================================================================================================
+                                                                Headers
+Ethernet Header - contains 8 bytes total, 7 bytes of 1's and 0's and a 1 byte delimeter. 
+                  Ethertypes - (0800 = IPv4),(86DD = IPv6)
+
+802.1Q Header - 
+
+ARP Header - 

@@ -1,5 +1,8 @@
 https://net.cybbh.io/public/networking/latest/index.html
 https://net.cybbh.io/-/public/-/jobs/847300/artifacts/modules/networking/slides/1-Network_Fundamentals.html
+  STUDENT 12
+  ssh student@10.50.43.84 -X
+ Password: password
 ==============================================================================================================================================
                                                         Mathematics
 Bit = 0 or 1

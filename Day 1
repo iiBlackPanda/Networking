@@ -9,5 +9,18 @@ Word = "1111 1111 1111 1111 1111 1111 1111 1111"
 
 Base 64 = If a answer keep the equal signs. Decode it usually.
 ==============================================================================================================================================
+                                                                    OSI Layers
+Application = Data Type - Data, dis where i be doin stuff
 
+Presentation = Data Type - Data . makes data presentable for the application to use it
+
+Session = Data Type - Data . 
+
+Transport = TCP/UDP . Data Type - segments
+
+Network = Data Type - packets . Routers/ICMP/IP addresses
+
+Data Link = Data type - frames . LAN,WAN,MAN
+
+Physical = Meduim of actual transportation. Data type is - bits
 ==============================================================================================================================================

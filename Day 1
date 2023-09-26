@@ -46,4 +46,4 @@ Ethernet Header - contains 8 bytes total, 7 bytes of 1's and 0's and a 1 byte de
 
 802.1Q Header - 
 
-ARP Header - 
+ARP Header - Offsets, 

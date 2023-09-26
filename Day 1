@@ -67,3 +67,19 @@ MTU - IP Header Length = Answer/8 = offset
 FTP PASV 
 17,9,9,20,128,9
 128 x 256 = 32777 (that is the port)
+
+
+TACACS - Port TCP 40, Centralized Authentication, CISCO
+
+
+DHCPv4
+Discover - 
+Offer - 
+Request - 
+Acknowledge - 
+
+DHCPv6
+Solicit - 
+Advertise - 
+Request - 
+Reply - 

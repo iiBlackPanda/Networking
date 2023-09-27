@@ -1,3 +1,5 @@
 sudo tcpdump -i eth0 -xxvvn -r <pcap file>
 
 sudo tcpdump -i eth0 -xxvvn (not tcp port 22 && not arp) || tcp port 3389
+
+ip[16:4]&0xFFFFFFFF=0x0A0A0A0A

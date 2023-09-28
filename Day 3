@@ -9,7 +9,7 @@ Socket types:
 User Space:
     What the uses uses and the ahrdware is suppsoed to do; 
     Stream and datagram sockets, most common, dont require elevated priv.
-    netcatto connect to or create a listener, use tcpdump or wireshark to read a file,. nmap withotu switched, /dev/tcp  or /dev/udp to transmit data
+    netcatto connect to or create a listener, use tcpdump or wireshark to read a file,. nmap without switched, /dev/tcp  or /dev/udp to transmit data
     
 
 Kernel Space : 
@@ -21,9 +21,9 @@ Kernel Space :
 https://docs.python.org/3/library/socket.html
 
 Import Socket: 
-  $ = socket.socket(socket.FAMILY, socket.TYPE, socket.PROTOCOL)
+  s = socket.socket(socket.FAMILY, socket.TYPE, socket.PROTOCOL)
     FAMILY Constants = AF_INET, AF_INET6,AF_UNIX
     TYPE Constants = SOCK_STREAM,SOCK_DGRAM,SOCK_RAW
     PROTO Constants = 0,IPPROTO_RAW
 
-if you are going to create a tunnel and need to connect a socket through, change the ipaddr to the loopback and the port will be whatever the tunnel is set to.
+if you are going to create a tunnel and need to connect a socket through, change the ipaddr to the loopback and the port will be high number port on the tunnel.

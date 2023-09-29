@@ -1,1 +1,27 @@
-4 Parts of Recon : Active, Passive, Internal, External
+4 types of recon
+  active
+      
+  passive
+      gathering info without direct interaction
+      lower risk of discovery
+      not as straight forward and requieres more time than active
+      trying to find IP addresses and subdomains, external and 3rd party sites, people and technologies, content of interest, vulnerabilities
+      whois queries, job site listints, phone numbers, google searches, passive OS fingerprinting
+  internal
+      sitting inside trying to find more shit inside the network
+      packet sniffers ie. tcpdump, wireshark (internal passive)
+      dns queries, arp reqests (internal active)
+  external
+      generally the start, from outside the target system
+      OSINT (external passive)
+      network scanning (internal passive)
+        Passive External Tools:
+            DNS : RFC 3912, Resolving hostnames to IP's,WHOIS queries
+            DIG : Typically between primary and secondary DNS servers
+                  If allowed to transfer externally hostnames, IPs, and IP blocks can be determined
+            Zone Transfers : Returns DNS info, supplement base queries
+            Netcraft : Gives a lot of information of a website and ip ranges e.t.c
+
+
+
+dig axfr @nsztm1.digi.ninja zonetransfer.me

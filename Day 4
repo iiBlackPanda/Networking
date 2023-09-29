@@ -23,5 +23,12 @@
             Netcraft : Gives a lot of information of a website and ip ranges e.t.c
 
 
+Network Scanning : Aim - Wide range target scan
+                         Target specific scan
+
+                   Method - Single source scan
+                            Distributed scan 
+  **Ruby Ping Sweep**
+
 
 dig axfr @nsztm1.digi.ninja zonetransfer.me

@@ -31,4 +31,6 @@ Network Scanning : Aim - Wide range target scan
   **Ruby Ping Sweep**
 
 
+                  An idle scan = uses a zombie ip, uses another persons ip for the scan. -sI <tgt ip>
+
 dig axfr @nsztm1.digi.ninja zonetransfer.me

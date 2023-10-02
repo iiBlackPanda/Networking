@@ -1,0 +1,6 @@
+TFTP - UDP, No terminal, BOOTP and PXE, used to push a router os sometimes
+FTP - TCP, Control(21) and Data (20), clear-text sign in. Supports anonymous login.
+SFTP - TCP, (22), Symmetric & Asymmetric encryption,terminal access, adds FTP to SSH
+FTPS - TCP, (443), Adds SSL/TLS encryption, Terminal,
+
+wget -r ftp://10.0.0.103 (Example : Recursively takes every file and places in new directory)

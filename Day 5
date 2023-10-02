@@ -2,5 +2,14 @@ TFTP - UDP, No terminal, BOOTP and PXE, used to push a router os sometimes
 FTP - TCP, Control(21) and Data (20), clear-text sign in. Supports anonymous login.
 SFTP - TCP, (22), Symmetric & Asymmetric encryption,terminal access, adds FTP to SSH
 FTPS - TCP, (443), Adds SSL/TLS encryption, Terminal,
+SCP - TCP,(22), Symmetric and Asymmetric, Sign in or SSH key, Non-Interafctive
 
 wget -r ftp://10.0.0.103 (Example : Recursively takes every file and places in new directory)
+
+scp student@10.0.0.10:secretstuff.txt /home/student (Download a file from remote to local)
+scp secretstuff.txt student@10.0.0.10:/home/student (Local to Remote)
+scp -3 student@10.0.0.10:/home/student/secretstuff.txt student@1172.16.82.112:/home/student (Remote to Remote)
+scp -P 1111 student@172.16.82.106:secretstuff.txt /home/stud (Download remote directory to local dir)
+scp -P 1111 secretstuff.txt student@172.16.82.106:/home/student (Upload local directory to remote directory)
+ssh student@172.16.82.106 -L 1111:localhost:22 -NT (Download file from Remote to Local)
+scp -P 1111 secretstuff.txt student@localhost:/home/student

@@ -1,0 +1,32 @@
+SSH Port FORWARDING : Creates channels using ssh-conn, changing one port to another port.
+
+                    SSH LOCAL PORT FORWARDING
+ssh - p <optional alt port> <user>@<pivot ip> -L <local bind port>
+                    OR
+ssh -L <local bind port>:<tgt ip>:<tgt port> -p <alt port> <user>@<pivot ip>
+
+This creates a local port(1111) on the local host and forwars to a tgt port 80
+ssh student@172.16.82.106 -L 1111:localhost:80 -NT
+                    OR
+ssh -L 1111:localhost:80 student@172.16.82.106 -NT
+
+                LOCAL PORT FORWARDING THROUGH LOCAL PORT
+This creates an additional local port  on the local host that forwards to the tgt through a previous channel created
+ssh student@172.16.1.15 -L 1111:172.16.40.10:22 -NT
+ssh student@localhost -p 1111 -L 2222:172.16.82.106:80 -NT (goes through prev tunnel, ssh's into tgt ip
+firefox localhost:2222
+
+                        SSH DYNAMIC PORT FORWARDING 1 Step
+Blue Private host-1:
+ssh student@172.16.82.106 -D 9050 -NT 
+proxychains ./scan.sh
+proxychains ssh student@10.10.0.40
+                        SSH DYNAMIC PORT FORWARDING 2 Step, through a pivot
+ssh student@172.16.82.106 -L 1111:10.10.0.50:22 -NT
+ssh student@localhost -D 9050 -p 1111 -NT
+proxychains curl ftp://www.onlineftp.ch
+proxychains wget -r www.espn.com
+proxychains ./scan.sh
+proxychains ssh student@172.16.101.2
+
+ss -ntlp (shows listening ports)

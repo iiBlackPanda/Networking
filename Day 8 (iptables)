@@ -1,0 +1,6 @@
+https://net.cybbh.io/-/public/-/jobs/850083/artifacts/modules/networking/slides/6-Network_Traffic_Filtering.html
+sudo iptables -P input drop
+sudo iptables -P output
+
+sudo iptables -A INPUT -p tcp-m multiport --ports 22,23,80        (M=multiple, A=Append
+sudo iptables -A OUTPUT -p tcp-m multiport --ports 22,23,80

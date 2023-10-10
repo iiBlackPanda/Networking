@@ -12,3 +12,9 @@ sudo nft add table ip <name of table>
 sudo nft add chain ip <name of table> { type filter hook input priority 0 \; policy accept\; }
 sudo nft add rule ip <name of table> input tcp dport {ssh,telnet,http}
 sudo nft add rule ip <Name of Table> input tcp sport {ssh,telnet,http}
+
+
+
+NAT & PAT
+snat = source address translation
+dnat = destination address translation (changes them in header)

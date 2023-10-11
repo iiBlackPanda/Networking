@@ -1,0 +1,24 @@
+out of band networks: not routable but potentially has access to all devices on it that ar eneeded to access
+
+span : can lose stuff at peak network traffic, limited by the lwoest line you have connected
+        id is usually connected via one
+
+
+Snort Rules
+[action] [protocol [s.ip] [s.port] [direction] [d.ip] d.port] (match conditions ;)
+
+actions : alert,log,pass,drop,reject
+Protocols: TCP,UDP,ICMP, e.t.c
+Direction: Inbound or Outbound   
+Conditions: msg,reference.sid.rev.classtype,priority (1,2,3) , metadata
+Content: |BEEF| (looks for this case senstiive string
+
+Detection options:
+        
+        Payload : Content: |BEEF| (looks for this case senstiive string),Depth,distance,within,offset,nocase,binary data
+        Non-Payload: flow (direction), ttl, tos, ipopts, seq, ack, flags, itype, icode
+thresholding and supression options
+        type [limit | threshold | both]
+              Limit : Alerts on a first event during a defined period and ignores te rest
+              Threshold : alerts every  x times during a defined period
+              Both : alerts once per time aftet seeing x amounst of occurenes of event

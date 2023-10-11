@@ -22,3 +22,8 @@ thresholding and supression options
               Limit : Alerts on a first event during a defined period and ignores te rest
               Threshold : alerts every  x times during a defined period
               Both : alerts once per time aftet seeing x amounst of occurenes of event
+
+
+sudo snort -D -l /var/log/snort -c /snort/rules/test.rules
+
+https://github.com/devildog6492/OS/compare/main...mesnath:OS:main

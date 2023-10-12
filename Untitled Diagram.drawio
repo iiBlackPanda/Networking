@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T17:14:32.956Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" version="22.0.0" etag="vBXpWZvkDR7h1pcXE0Qk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T12:55:46.827Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="7qQZ4IKSt8rfQw8PQuG2" version="22.0.0" type="github">
   <diagram name="Page-1" id="60wICm4SN73Yag35uj9H">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="330" y="105" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FFFFFF;fontColor=#FFFFFF;fillColor=#182E3E;" vertex="1" parent="1">
+          <mxGeometry x="570" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-10" value="Internet Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-14" value="&lt;div&gt;10.1.1.11&lt;/div&gt;&lt;div&gt;Capstone 2&lt;/div&gt;&lt;div&gt;21,23,1918&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eBXeDtj7m-Om8TIiqvWL-15" value="10.50.27.32&lt;br&gt;Capstone 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

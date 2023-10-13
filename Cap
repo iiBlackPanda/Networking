@@ -2,3 +2,10 @@ IH :ssh net4_student12@localhost -p 41202:10.2.2.7:23 -NT
 Capstone 7:ssh net4_student12@10.2.2.6 -p 7777 -r 41203:localhost:2222 -NT
 IH :ssh net4_comrade12@localhost -p 41204 -D 9050 -NT
 IH :ssh net4_student12@localhost -p 41201 -L 41204:localhost:41203 -NT
+
+
+IH : ssh student@localhost -L 41202:10.50.41.66:7777 -NT
+IH:ssh net4_student12@localhost -p 41201 -L 41204:localhost:41203 -NT
+IH: ssh net4_student12@localhost -p 41201 -L 41204:localhost:41203 -NT
+Capstone 7:ssh net4_student12@10.2.2.6 -p 7777 -R 41203:localhost:2222 -NT
+IH:ssh net4_comrade12@localhost -p 41204 -L 41205:10.10.10.140:301 -NT

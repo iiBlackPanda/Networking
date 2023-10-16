@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T16:44:19.468Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="2j21SVY5lEuhxPlrLOVD" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T17:11:14.910Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="Gi01osg_2LHcOkc-bZDv" version="22.0.0" type="github">
   <diagram name="Page-1" id="60wICm4SN73Yag35uj9H">
     <mxGraphModel dx="1434" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
         <mxCell id="wESE4YzcyuQ8q2sACYRW-1" value="00200999b60bf5035f180585cccfd1e4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="475" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wESE4YzcyuQ8q2sACYRW-2" value="10.10.0.85&lt;br&gt;ftp" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="wESE4YzcyuQ8q2sACYRW-2" value="10.10.0.85&lt;br&gt;ftp,http(8008)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1120" y="380" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wESE4YzcyuQ8q2sACYRW-4" value="10.10.0.77&lt;br&gt;FTP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">

@@ -27,6 +27,7 @@ Privilege Escalation
   Vulnerable Services and Kernel Exploits
     similiar to cron jobs
     wall hacks
+    check systemd for services
     unpatched Kernel Vulnerabilities
     echo $PATH
 

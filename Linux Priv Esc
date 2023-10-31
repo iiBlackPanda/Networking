@@ -6,7 +6,7 @@ Persisentence
     implementing boot process persistence
     adding a kernel module (with a backdoor)
     SSH Keys
-    additional methods outisde the scope of the SG
+    additional methods outside the scope of the SG
 
 Privilege Escalation
   Sudo

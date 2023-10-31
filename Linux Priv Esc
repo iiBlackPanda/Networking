@@ -23,12 +23,11 @@ Privilege Escalation
     cron jobs can be set up to open/run applications or commands as root
     https://crontab.guru/
     /var/spool
-    
 
   Vulnerable Services and Kernel Exploits
     similiar to cron jobs
     wall hacks
-
+    unpatched Kernel Vulnerabilities
     echo $PATH
 
 Find SGID and SUID Users      

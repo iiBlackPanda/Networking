@@ -13,16 +13,23 @@ Privilege Escalation
     Sudo -l 
       Lists sudo privileges for the user
       /etc/sudoers
+      sudo apt-get changelog apt
+      /usr/local/bin/cleanup
 
   Id 
     Shows priv for user
 
   Improperly configured cron jobs
     cron jobs can be set up to open/run applications or commands as root
+    https://crontab.guru/
+    /var/spool
+    
 
   Vulnerable Services and Kernel Exploits
     similiar to cron jobs
     wall hacks
+
+    echo $PATH
 
 Find SGID and SUID Users      
   find / -type f -perm /4000 -ls 2>/dev/null # Find SUID only files

@@ -1,0 +1,19 @@
+https://sec.cybbh.io/-/public/-/jobs/842473/artifacts/slides/09-windows-priv-persist-cover.html
+
+Scheduled Tasks -> Trigger
+Serviers -> Startup
+           (Boot)
+Registry -> HKLM ->
+            HKCU ->
+           (Log On)
+
+                                            (not in order)
+DLL Search Order -  The directory the the Application was run from
+                    The current directory (where it was run)
+                    The directory specified in the C+ function GetWindowsDirectory()
+                    The directory specified in in the C+ function GetSystemDirectory()
+                    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs                 
+  Some Programs will run without DLL's, we abuse that.
+
+UAC Settings - HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+

